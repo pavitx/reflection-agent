@@ -28,5 +28,5 @@ llm = ChatOpenAI()
 
 generate_chain = generation_prompt | llm
 
-reflection_chain = reflection_prompt | llm
+reflect_chain = reflection_prompt | llm
 
